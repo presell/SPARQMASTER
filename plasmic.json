@@ -1,0 +1,1608 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "pa7sVod8bKytSwUDATE2VX",
+      "projectApiToken": "lezNaUd2J5Yevu8OjmO0Z68FllzrY2enVQsYcENlY27Jfc2Mi7sVy4EMNfv1wh43KXp80znQjHatIGpcfbg",
+      "projectName": "IN USE - Sparq Master App",
+      "version": "latest",
+      "cssFilePath": "plasmic/in_use_sparq_master_app/plasmic_in_use_sparq_master_app.module.css",
+      "components": [
+        {
+          "id": "QJV4ARtLTZg4",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "FBtFEU5KRtou",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "vJh7k2_x97Zk",
+          "name": "ThankYou",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicThankYou.tsx",
+          "importSpec": {
+            "modulePath": "../pages/thank-you.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicThankYou.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "o_WVJMCg7nB0",
+          "name": "Reviews",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicReviews.tsx",
+          "importSpec": {
+            "modulePath": "Reviews.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicReviews.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "bJKYdrN41AoS",
+          "name": "AsFeaturedIn",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicAsFeaturedIn.tsx",
+          "importSpec": {
+            "modulePath": "AsFeaturedIn.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicAsFeaturedIn.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6yaIIveJrpL1",
+          "name": "ReviewCard",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicReviewCard.tsx",
+          "importSpec": {
+            "modulePath": "ReviewCard.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicReviewCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pYNPUCblNIbj",
+          "name": "SideCta",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicSideCta.tsx",
+          "importSpec": {
+            "modulePath": "SideCta.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicSideCta.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "PStYUYe__WmT",
+          "name": "ArticleNav",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicArticleNav.tsx",
+          "importSpec": {
+            "modulePath": "ArticleNav.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicArticleNav.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Hmy657fkj6Oc",
+          "name": "ArticleIntro",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicArticleIntro.tsx",
+          "importSpec": {
+            "modulePath": "ArticleIntro.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicArticleIntro.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "1SGhc-DPN5XQ7",
+          "name": "ArticleBody",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicArticleBody.tsx",
+          "importSpec": {
+            "modulePath": "ArticleBody.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicArticleBody.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "oL5xzGTc8htef",
+          "name": "NavCwoffer",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicNavCwoffer.tsx",
+          "importSpec": {
+            "modulePath": "NavCwoffer.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicNavCwoffer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8Uh-pZQEEKK",
+          "name": "Nav1440CwOffer",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicNav1440CwOffer.tsx",
+          "importSpec": {
+            "modulePath": "Nav1440CwOffer.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicNav1440CwOffer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0IKOWTo7BC8",
+          "name": "Nav414CwOffer",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicNav414CwOffer.tsx",
+          "importSpec": {
+            "modulePath": "Nav414CwOffer.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicNav414CwOffer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8S8CX-y65akz",
+          "name": "Nav320CwOffer",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicNav320CwOffer.tsx",
+          "importSpec": {
+            "modulePath": "Nav320CwOffer.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicNav320CwOffer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "IipYP1OVSc60",
+          "name": "NavICwOffer",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicNavICwOffer.tsx",
+          "importSpec": {
+            "modulePath": "NavICwOffer.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicNavICwOffer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "_3MzPLlmAKPx",
+          "name": "Collection3Pack1440Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicCollection3Pack1440Px.tsx",
+          "importSpec": {
+            "modulePath": "Collection3Pack1440Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicCollection3Pack1440Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "HKwuYx15ejL6",
+          "name": "DisposableCollection",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicDisposableCollection.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicDisposableCollection.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "LA6cIoFI-nR3",
+          "name": "AnnouncementBar1440Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicAnnouncementBar1440Px.tsx",
+          "importSpec": {
+            "modulePath": "AnnouncementBar1440Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicAnnouncementBar1440Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "H0G8F9NIgrOl",
+          "name": "NavBar1440Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicNavBar1440Px.tsx",
+          "importSpec": {
+            "modulePath": "NavBar1440Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicNavBar1440Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Re2iBihNwkAr",
+          "name": "HeadlineIcons1440Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicHeadlineIcons1440Px.tsx",
+          "importSpec": {
+            "modulePath": "HeadlineIcons1440Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicHeadlineIcons1440Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "RUQiiQ4kJszi",
+          "name": "SubscriptionImageTextBanner",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicSubscriptionImageTextBanner.tsx",
+          "importSpec": {
+            "modulePath": "SubscriptionImageTextBanner.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicSubscriptionImageTextBanner.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "u1ElaXXZI5UK",
+          "name": "PromissoryCommitment1440Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicPromissoryCommitment1440Px.tsx",
+          "importSpec": {
+            "modulePath": "PromissoryCommitment1440Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicPromissoryCommitment1440Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "d8HtiFIS4ir9W",
+          "name": "Footer1440Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicFooter1440Px.tsx",
+          "importSpec": {
+            "modulePath": "Footer1440Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicFooter1440Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "lvH_ZFjIdOtAl",
+          "name": "PureSingle1440Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicPureSingle1440Px.tsx",
+          "importSpec": {
+            "modulePath": "PureSingle1440Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicPureSingle1440Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "1O92STvNQlQnT",
+          "name": "MeltSingle1440Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicMeltSingle1440Px.tsx",
+          "importSpec": {
+            "modulePath": "MeltSingle1440Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicMeltSingle1440Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "gpSEyqw8zP62e",
+          "name": "FuelSingle1440Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicFuelSingle1440Px.tsx",
+          "importSpec": {
+            "modulePath": "FuelSingle1440Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicFuelSingle1440Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "JFQwLBR8BIYry",
+          "name": "Variety6Pack1440Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicVariety6Pack1440Px.tsx",
+          "importSpec": {
+            "modulePath": "Variety6Pack1440Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicVariety6Pack1440Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UUGoL_pNjF1hg",
+          "name": "DisposableBogoOffer1440Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicDisposableBogoOffer1440Px.tsx",
+          "importSpec": {
+            "modulePath": "DisposableBogoOffer1440Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicDisposableBogoOffer1440Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "dxLunjY_KOf2M",
+          "name": "AnnouncementBar414Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicAnnouncementBar414Px.tsx",
+          "importSpec": {
+            "modulePath": "AnnouncementBar414Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicAnnouncementBar414Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "GbdURnObSJngF",
+          "name": "NavBar414Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicNavBar414Px.tsx",
+          "importSpec": {
+            "modulePath": "NavBar414Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicNavBar414Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Ss7dzqZYm35Ae",
+          "name": "HeadlineIcons414Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicHeadlineIcons414Px.tsx",
+          "importSpec": {
+            "modulePath": "HeadlineIcons414Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicHeadlineIcons414Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "wmSYS2dMWi1V_",
+          "name": "_3Pack414Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_3Pack414Px.tsx",
+          "importSpec": {
+            "modulePath": "_3Pack414Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_3Pack414Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "AL384O4oXZ-mf",
+          "name": "PureSingle414Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicPureSingle414Px.tsx",
+          "importSpec": {
+            "modulePath": "PureSingle414Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicPureSingle414Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "SRVbkz2sv9AeF",
+          "name": "MeltSingle414Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicMeltSingle414Px.tsx",
+          "importSpec": {
+            "modulePath": "MeltSingle414Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicMeltSingle414Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "SmXoK8mJ6dNh5",
+          "name": "FuelSingle414Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicFuelSingle414Px.tsx",
+          "importSpec": {
+            "modulePath": "FuelSingle414Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicFuelSingle414Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "MrsWVVUzwS4Ue",
+          "name": "SubscriptionImageText414Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicSubscriptionImageText414Px.tsx",
+          "importSpec": {
+            "modulePath": "SubscriptionImageText414Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicSubscriptionImageText414Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0-ql1Y3PoB2Vs",
+          "name": "PromissoryCommitment414Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicPromissoryCommitment414Px.tsx",
+          "importSpec": {
+            "modulePath": "PromissoryCommitment414Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicPromissoryCommitment414Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ZqNRasr20LC7v",
+          "name": "Footer414Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicFooter414Px.tsx",
+          "importSpec": {
+            "modulePath": "Footer414Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicFooter414Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0R41Ihy_g3VF4",
+          "name": "CollectionWhole414Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicCollectionWhole414Px.tsx",
+          "importSpec": {
+            "modulePath": "CollectionWhole414Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicCollectionWhole414Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "lmelEECyMLaHY",
+          "name": "CollectionWhole414Px2",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicCollectionWhole414Px2.tsx",
+          "importSpec": {
+            "modulePath": "CollectionWhole414Px2.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicCollectionWhole414Px2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "sW_MSmBW0iYTr",
+          "name": "CollectionWhole414Px3",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicCollectionWhole414Px3.tsx",
+          "importSpec": {
+            "modulePath": "CollectionWhole414Px3.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicCollectionWhole414Px3.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "sTFit8fX86NYf",
+          "name": "_414BogoOffer",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_414BogoOffer.tsx",
+          "importSpec": {
+            "modulePath": "_414BogoOffer.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_414BogoOffer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "WQTH_unf_6Xol",
+          "name": "Variety414Px",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicVariety414Px.tsx",
+          "importSpec": {
+            "modulePath": "Variety414Px.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicVariety414Px.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "WhXSI6QZCnwjA",
+          "name": "_320PxAccouncementBar",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxAccouncementBar.tsx",
+          "importSpec": {
+            "modulePath": "_320PxAccouncementBar.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxAccouncementBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "uJpvdcRftaAdk",
+          "name": "_320PxNavBar",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxNavBar.tsx",
+          "importSpec": {
+            "modulePath": "_320PxNavBar.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxNavBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2HdGjmGkrSFS3",
+          "name": "_320PxImageIcons",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxImageIcons.tsx",
+          "importSpec": {
+            "modulePath": "_320PxImageIcons.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxImageIcons.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "t-3xsRbKhSTos",
+          "name": "_320Px3Pack",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320Px3Pack.tsx",
+          "importSpec": {
+            "modulePath": "_320Px3Pack.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320Px3Pack.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0VT1NHIMI5Hxd",
+          "name": "_320PxPure",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxPure.tsx",
+          "importSpec": {
+            "modulePath": "_320PxPure.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxPure.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "bjixgHnajmcWY",
+          "name": "_320PxMelt",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxMelt.tsx",
+          "importSpec": {
+            "modulePath": "_320PxMelt.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxMelt.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "CvU96IO_MrKV4",
+          "name": "_320PxFuel",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxFuel.tsx",
+          "importSpec": {
+            "modulePath": "_320PxFuel.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxFuel.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Jy9iMl-S3a9t3",
+          "name": "_320PxVariety",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxVariety.tsx",
+          "importSpec": {
+            "modulePath": "_320PxVariety.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxVariety.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "wtoo1lxzmxi6_",
+          "name": "_414PxVariety",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_414PxVariety.tsx",
+          "importSpec": {
+            "modulePath": "_414PxVariety.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_414PxVariety.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "f-oHHT688YUKY",
+          "name": "_320XSubscriptionImage",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320XSubscriptionImage.tsx",
+          "importSpec": {
+            "modulePath": "_320XSubscriptionImage.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320XSubscriptionImage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "NL_v-b3Wo5nb-",
+          "name": "_320PxCommitment",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxCommitment.tsx",
+          "importSpec": {
+            "modulePath": "_320PxCommitment.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxCommitment.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "BhF9fMfxce6iv",
+          "name": "_320PxFooter",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxFooter.tsx",
+          "importSpec": {
+            "modulePath": "_320PxFooter.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4K6jmPD7-Tep_",
+          "name": "_320PxAnnouncementBarI",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxAnnouncementBarI.tsx",
+          "importSpec": {
+            "modulePath": "_320PxAnnouncementBarI.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxAnnouncementBarI.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "HTCuMR30XHPfN",
+          "name": "_320PxNavBarI",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxNavBarI.tsx",
+          "importSpec": {
+            "modulePath": "_320PxNavBarI.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxNavBarI.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "_0W_VaMbWLBRh",
+          "name": "_320PxCwOfferBogo",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxCwOfferBogo.tsx",
+          "importSpec": {
+            "modulePath": "_320PxCwOfferBogo.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxCwOfferBogo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2onpagIIwh0OE",
+          "name": "_320PxFooterI",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxFooterI.tsx",
+          "importSpec": {
+            "modulePath": "_320PxFooterI.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxFooterI.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "G9RMZDNG6MFcW",
+          "name": "_320PxAnnouncementBarIi",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxAnnouncementBarIi.tsx",
+          "importSpec": {
+            "modulePath": "_320PxAnnouncementBarIi.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxAnnouncementBarIi.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "b0hUlyjvsFjqJ",
+          "name": "_320PxAnncoumentFinal",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxAnncoumentFinal.tsx",
+          "importSpec": {
+            "modulePath": "_320PxAnncoumentFinal.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_320PxAnncoumentFinal.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8Ci58clf_7SnY",
+          "name": "_1440VarietyRedo",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/Plasmic_1440VarietyRedo.tsx",
+          "importSpec": {
+            "modulePath": "_1440VarietyRedo.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/Plasmic_1440VarietyRedo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8AIy1r_kRBR85",
+          "name": "SafeLeads",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicSafeLeads.tsx",
+          "importSpec": {
+            "modulePath": "SafeLeads.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicSafeLeads.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "03A5Qc-kFvvUJ",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicHome.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "s6pb6S-_rJoQ_",
+          "name": "DisposableCollection3",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicDisposableCollection3.tsx",
+          "importSpec": {
+            "modulePath": "DisposableCollection3.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicDisposableCollection3.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "CtNWjoNnix",
+          "name": "Blog1",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicBlog1.tsx",
+          "importSpec": {
+            "modulePath": "../pages/blog-1.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicBlog1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "RepBlWcAYMGwz",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Searchsvg.tsx"
+        },
+        {
+          "id": "5Y5nv0Iw_IZAz",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "3ihnzp_BYbkrM",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "PNb5O19sjEGpT",
+          "name": "FrameIcon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Frame.tsx"
+        },
+        {
+          "id": "odyh_jo2I97Ra",
+          "name": "Frame2Icon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Frame2.tsx"
+        },
+        {
+          "id": "w0xbZwsJRA-f8",
+          "name": "Frame3Icon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Frame3.tsx"
+        },
+        {
+          "id": "1NTvAJJ8S0aRM",
+          "name": "Frame4Icon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Frame4.tsx"
+        },
+        {
+          "id": "Tz0d04hsc3HD7",
+          "name": "Frame5Icon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Frame5.tsx"
+        },
+        {
+          "id": "EZ-UHqsKmUV0E",
+          "name": "Frame6Icon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Frame6.tsx"
+        },
+        {
+          "id": "frQe-FDHe9a5P",
+          "name": "Frame7Icon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Frame7.tsx"
+        },
+        {
+          "id": "H0Lh3jQ5OM-yG",
+          "name": "Frame8Icon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Frame8.tsx"
+        },
+        {
+          "id": "IDccrqveitDFv",
+          "name": "Frame9Icon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Frame9.tsx"
+        },
+        {
+          "id": "rM1hMAOAoH7Rq",
+          "name": "Frame10Icon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Frame10.tsx"
+        },
+        {
+          "id": "qAyAiqCu5eKUr",
+          "name": "Frame11Icon",
+          "moduleFilePath": "plasmic/in_use_sparq_master_app/icons/PlasmicIcon__Frame11.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "lyJ5t0mRTUclh",
+          "name": "Sparq_Logo_White.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/sparqLogoWhitepng.png"
+        },
+        {
+          "id": "vp5lRUwOupxBV",
+          "name": "https___app.unbounce.com_publish_assets_4e7205ac-8938-11ed-b5b0-0242a3c829a5_3u3deu-sparq-black-logo_108c08c000000000000028.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/httpsAppunbouncecomPublishAssets4E7205Ac893811EdB5B00242A3C829A53U3DeuSparqBlackLogo108C08C000000000000028Png.png"
+        },
+        {
+          "id": "hoBiWWaWcVTQe",
+          "name": "LADYBAGUETTE2020IMG_3156-Edit 1.svg",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/ladybaguette2020Img3156Edit1Svg.bin"
+        },
+        {
+          "id": "c9JcwrOBJgE8t",
+          "name": "LADYBAGUETTE2020IMG_3156-Edit.jpg",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/ladybaguette2020Img3156Editjpg.jpeg"
+        },
+        {
+          "id": "Hri3qDARlngqN",
+          "name": "e-mail_1f4e7.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/eMail1F4E7Png.png"
+        },
+        {
+          "id": "486tFmMdqIjXt",
+          "name": "sparq-logo_125x.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/sparqLogo125Xpng.png"
+        },
+        {
+          "id": "qvYQiz7J0NsYM",
+          "name": "footer-logo.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/footerLogopng.png"
+        },
+        {
+          "id": "m6dKvunXTXMxU",
+          "name": "smoking_icon_ac8544ef-2a78-4a92-9740-ba3c7312e5c5_480x480.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/smokingIconAc8544Ef2A784A929740Ba3C7312E5C5480X480Png.png"
+        },
+        {
+          "id": "sY6CV_VVEje7J",
+          "name": "beaker_icon_09efe31c-b2e4-4c7f-8a8f-f564e86fe6e1_480x480.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/beakerIcon09Efe31CB2E44C7F8A8FF564E86Fe6E1480X480Png.png"
+        },
+        {
+          "id": "5rP0F8YPGFL2F",
+          "name": "pills_icon_73726148-c05b-4727-9378-2519623fd4a0_480x480.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/pillsIcon73726148C05B472793782519623Fd4A0480X480Png.png"
+        },
+        {
+          "id": "GdNZW7mIXuDQB",
+          "name": "recycle_icon_1607fa06-3a4b-4d0b-a0a6-1cd803b18c85_480x480.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/recycleIcon1607Fa063A4B4D0BA0A61Cd803B18C85480X480Png.png"
+        },
+        {
+          "id": "HOawdf24mtKNM",
+          "name": "product-sec-ban-1.jpg",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/productSecBan1Jpg.png"
+        },
+        {
+          "id": "Sj-kc-ff23ZhF",
+          "name": "Safety-Practices_480x480.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/safetyPractices480X480Png.png"
+        },
+        {
+          "id": "Uogfoz3dhPkkK",
+          "name": "Extensive_Scientific_Research_480x480.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/extensiveScientificResearch480X480Png.png"
+        },
+        {
+          "id": "6CIT6fs0z2TeD",
+          "name": "Environmentally-Responsible_480x480.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/environmentallyResponsible480X480Png.png"
+        },
+        {
+          "id": "tTG039XEfWriW",
+          "name": "Giving-Back_480x480.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/givingBack480X480Png.png"
+        },
+        {
+          "id": "yexgkSUbJRUHn",
+          "name": "product-fuel_250x250@2x.jpg",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/productFuel250X2502Xjpg.png"
+        },
+        {
+          "id": "T8TDUbXNxNJK2",
+          "name": "product-pure_cca9dd58-d8da-49ac-b531-f6abd24468da_250x250@2x.jpg",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/productPureCca9Dd58D8Da49AcB531F6Abd24468Da250X2502Xjpg.png"
+        },
+        {
+          "id": "prqWuwu96rMXG",
+          "name": "product-melt_e5ee4b8c-b394-4dfa-969d-133320737857_250x250@2x.jpg",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/productMeltE5Ee4B8CB3944Dfa969D133320737857250X2502Xjpg.png"
+        },
+        {
+          "id": "rv5Z5bVoRxeQ4",
+          "name": "product-variety_1c2e7bd9-ac9c-4989-bfad-811526dad7e0_250x250@2x.jpg",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg.png"
+        },
+        {
+          "id": "knp33ulvSUXDO",
+          "name": "Packaging6Upright_09_FINAL-min_250x250@2x.jpg",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/packaging6Upright09FinalMin250X2502Xjpg.png"
+        },
+        {
+          "id": "n0dvNW6gGiCvg",
+          "name": "shopify-secure-badge-light-shadow.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/shopifySecureBadgeLightShadowpng.png"
+        },
+        {
+          "id": "jzX3g9hENCL8C",
+          "name": "label 5",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/label5.png"
+        },
+        {
+          "id": "L73KRr8rO60JZ",
+          "name": "label 2",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/label2.png"
+        },
+        {
+          "id": "pFGWe2hiGDC97",
+          "name": "label",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/label.png"
+        },
+        {
+          "id": "BaYuUukHtn-TL",
+          "name": "label 4",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/label4.png"
+        },
+        {
+          "id": "0f4Eo__gRhG5r",
+          "name": "pills_icon_73726148-c05b-4727-9378-2519623fd4a0_480x480.png 2",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/pillsIcon73726148C05B472793782519623Fd4A0480X480Png2.png"
+        },
+        {
+          "id": "mI2Li1SPrqv4C",
+          "name": "div",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/div.png"
+        },
+        {
+          "id": "a8ghdIKnQx63E",
+          "name": "5a18637b3a18271ae9cd636b_1_77c5b246-4f6c-4a1d-b6c8-5c4eb7fb4a85.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/_5A18637B3A18271Ae9Cd636B177C5B2464F6C4A1DB6C85C4Eb7Fb4A85Png.png"
+        },
+        {
+          "id": "tPXIPbOwJRk3H",
+          "name": "800px-Indiegogo_logo_87e824db-34f7-4415-9219-ab56dca36549.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/_800PxIndiegogoLogo87E824Db34F744159219Ab56Dca36549Png.png"
+        },
+        {
+          "id": "rNOm8b4ZR63Vk",
+          "name": "1200px-Scientific_American_logo.svg_9440dc46-eee2-4228-b6a5-e91e5b0c8581.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/_1200PxScientificAmericanLogosvg9440Dc46Eee24228B6A5E91E5B0C8581Png.png"
+        },
+        {
+          "id": "YuM504OsUk3xI",
+          "name": "asfeaturedin4_9bda2aea-3ea9-4d3c-bd4f-7d2ad76ae608.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/asfeaturedin49Bda2Aea3Ea94D3CBd4F7D2Ad76Ae608Png.png"
+        },
+        {
+          "id": "MglGNNLgI7s82",
+          "name": "Entrepreneur_logo_484ccefe-4c85-4084-bc8c-12af7a590ec0.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/entrepreneurLogo484Ccefe4C854084Bc8C12Af7A590Ec0Png.png"
+        },
+        {
+          "id": "b-LluDSxfSTEs",
+          "name": "confidencee_fdabb2f0-6360-4ed7-8f96-dc94bfa29f15.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/confidenceeFdabb2F063604Ed78F96Dc94Bfa29F15Png.png"
+        },
+        {
+          "id": "Mz4CnPjI5BewI",
+          "name": "promissory_700cba5a-b826-4b5c-8106-987450146e3b.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/promissory700Cba5AB8264B5C8106987450146E3Bpng.jpeg"
+        },
+        {
+          "id": "VpzFXuO0J87FJ",
+          "name": "promissorylayer.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/promissorylayerpng.png"
+        },
+        {
+          "id": "ZTB7KjKh0tdjJ",
+          "name": "Group_8.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/group8Png.png"
+        },
+        {
+          "id": "fXCnL5myOUqRg",
+          "name": "moneybackleft.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/moneybackleftpng.png"
+        },
+        {
+          "id": "k_i8kgk7-vqI7",
+          "name": "moneybackright.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/moneybackrightpng.png"
+        },
+        {
+          "id": "PoaXKxMOtjYIQ",
+          "name": "Sparq_Logo_Final-03_1_-removebg-preview_3b7bc87c-264b-43d3-8992-4155c29d48c3.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/sparqLogoFinal031RemovebgPreview3B7Bc87C264B43D389924155C29D48C3Png.png"
+        },
+        {
+          "id": "yQJ8NN2M3_qNB",
+          "name": "Sparq_box_animation_loop_shorter_version.gif",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/sparqBoxAnimationLoopShorterVersiongif.png"
+        },
+        {
+          "id": "Meihf2ZHR0HAR",
+          "name": "leftarr.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/leftarrpng.png"
+        },
+        {
+          "id": "wl75DRhruOzyl",
+          "name": "rightarr.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/rightarrpng.png"
+        },
+        {
+          "id": "iRk7f8z07MNRB",
+          "name": "paymentlogo.png 2",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/paymentlogopng2.png"
+        },
+        {
+          "id": "rtjaElDo2XevF",
+          "name": "Sparq_Logo_Final-03_1_1.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/sparqLogoFinal0311Png.png"
+        },
+        {
+          "id": "asNs1_Ge2xrvr",
+          "name": "li",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/li.png"
+        },
+        {
+          "id": "t1szdCT1gvRe5",
+          "name": "paymentlogo.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/paymentlogopng.png"
+        },
+        {
+          "id": "sX9ovF3pnjM5T",
+          "name": "star.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/starpng.png"
+        },
+        {
+          "id": "dcXSykQQj44H0",
+          "name": "bannerrev_e286f026-53c5-463d-95e1-7d983a6a0996.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/bannerrevE286F02653C5463D95E17D983A6A0996Png.png"
+        },
+        {
+          "id": "92dNK_ToWvO_2",
+          "name": "My_project.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/myProjectpng.png"
+        },
+        {
+          "id": "AjKJMpeSNXxN5",
+          "name": "My_project-2.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/myProject2Png.png"
+        },
+        {
+          "id": "x6pelXOOSE98J",
+          "name": "My_project-5.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/myProject5Png.png"
+        },
+        {
+          "id": "A9ifWopuNAib2",
+          "name": "My_project-3.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/myProject3Png.png"
+        },
+        {
+          "id": "ajMh82dMb28KT",
+          "name": "My_project-7.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/myProject7Png.png"
+        },
+        {
+          "id": "_mN02oTxYS3OE",
+          "name": "My_project-6.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/myProject6Png.png"
+        },
+        {
+          "id": "GglzrMsx6jMFU",
+          "name": "My_project-4.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/myProject4Png.png"
+        },
+        {
+          "id": "OfhLvtxIhnRXi",
+          "name": "promissoryitem1_cb038f04-1a2b-4c5b-af99-95014e9df68f.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/promissoryitem1Cb038F041A2B4C5BAf9995014E9Df68Fpng.png"
+        },
+        {
+          "id": "nqH1y84s0rC70",
+          "name": "promissoryitem2_d1cae334-b4ca-4e4f-8fba-fc3f796c4042.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/promissoryitem2D1Cae334B4Ca4E4F8FbaFc3F796C4042Png.png"
+        },
+        {
+          "id": "yC2HhcTKmHfCj",
+          "name": "promissoryitem3_674784dc-9a84-4f5a-8b80-175ce3e3f7c3.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/promissoryitem3674784Dc9A844F5A8B80175Ce3E3F7C3Png.png"
+        },
+        {
+          "id": "ePtURyHUmCs-f",
+          "name": "sidereview1.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/sidereview1Png.png"
+        },
+        {
+          "id": "lMSSSftd21Yuv",
+          "name": "sidereview2.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/sidereview2Png.png"
+        },
+        {
+          "id": "6lxisrHO1y2Wp",
+          "name": "sidereview3.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/sidereview3Png.png"
+        },
+        {
+          "id": "OkqxLJjYBl5vK",
+          "name": "3.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/_3Png.png"
+        },
+        {
+          "id": "bJGwajNWQUSjH",
+          "name": "6.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/_6Png.png"
+        },
+        {
+          "id": "huEmXWo2g1BK7",
+          "name": "getyourvitamin1.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/getyourvitamin1Png.png"
+        },
+        {
+          "id": "OkLaD_JPAvqjS",
+          "name": "verify.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/verifypng.png"
+        },
+        {
+          "id": "JjPFzRn3cCzOW",
+          "name": "paymenticons.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/paymenticonspng.png"
+        },
+        {
+          "id": "08hhJEOgPuWQl",
+          "name": "hand.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handpng.png"
+        },
+        {
+          "id": "H7dooN8U4Tqjn",
+          "name": "freeship.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/freeshippng.png"
+        },
+        {
+          "id": "KYvbC-69GLlm4",
+          "name": "hand.svg",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg.bin"
+        },
+        {
+          "id": "c0Q79Y4LGtJ-R",
+          "name": "hand.svg 2",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg2.bin"
+        },
+        {
+          "id": "PyINzEXPFicgx",
+          "name": "hand.svg 3",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg3.bin"
+        },
+        {
+          "id": "S0zcR41bxp6yZ",
+          "name": "hand.svg 4",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg4.bin"
+        },
+        {
+          "id": "vlUNy5LRI87-8",
+          "name": "logo.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/logopng.png"
+        },
+        {
+          "id": "x0QMuI5k3ND7F",
+          "name": "midbanner.jpg",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/midbannerjpg.jpeg"
+        },
+        {
+          "id": "qFysu9YCZNxxz",
+          "name": "review.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/reviewpng.png"
+        },
+        {
+          "id": "mTOfKADjHogI4",
+          "name": "fingericon.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/fingericonpng.png"
+        },
+        {
+          "id": "_czn-t00KpDsV",
+          "name": "star.png 2",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/starpng2.png"
+        },
+        {
+          "id": "Gv9SJo3pwk8Ub",
+          "name": "nw-brandlogo.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/nwBrandlogopng.png"
+        },
+        {
+          "id": "tpOxa8430lh56",
+          "name": "li 2",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/li2.png"
+        },
+        {
+          "id": "6lqIrKgWOSz4R",
+          "name": "sidereview1.png 2",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/sidereview1Png2.png"
+        },
+        {
+          "id": "WAgYRxHRpHFIm",
+          "name": "sidereview2.png 2",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/sidereview2Png2.png"
+        },
+        {
+          "id": "cUOFFdGwKKbi_",
+          "name": "div 3",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/div3.jpeg"
+        },
+        {
+          "id": "s-tkAb5_zHcHX",
+          "name": "sidereview3.png 2",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/sidereview3Png2.png"
+        },
+        {
+          "id": "4AT7SNPhWufwm",
+          "name": "prodimage.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/prodimagepng.png"
+        },
+        {
+          "id": "WwSW29osPGqCx",
+          "name": "tick.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/tickpng.png"
+        },
+        {
+          "id": "P4cFQKZCsv4E6",
+          "name": "cross.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/crosspng.png"
+        },
+        {
+          "id": "VHPn7sRNNybgU",
+          "name": "paymentcard.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/paymentcardpng.png"
+        },
+        {
+          "id": "dI1hDli1V-Fan",
+          "name": "div 4",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/div4.png"
+        },
+        {
+          "id": "hspPPhMiY9nrh",
+          "name": "Screenshot 2023-02-24 at 4.34.42 PM.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/screenshot20230224At43442PMpng.png"
+        },
+        {
+          "id": "wEa4gS4L4aOxO",
+          "name": "1b8bd693-image1_1000000000000000000028.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/_1B8Bd693Image11000000000000000000028Png.png"
+        },
+        {
+          "id": "CvKdeNXlTLv1v",
+          "name": "4b6e6ed1-device.gif",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/_4B6E6Ed1Devicegif.gif"
+        },
+        {
+          "id": "w_fACnBvloNta",
+          "name": "6bb5e2f0-image3_1000000000000000000028.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/_6Bb5E2F0Image31000000000000000000028Png.png"
+        },
+        {
+          "id": "5dDA8qBUxKpyL",
+          "name": "12a7a7bb-testing-smaller-image_10yy0fa000000000000028 (1).png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/_12A7A7BbTestingSmallerImage10Yy0Fa0000000000000281Png.png"
+        },
+        {
+          "id": "BKgGpqcr1VsbC",
+          "name": "7e469161-end_1000000000000000000028.png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/_7E469161End1000000000000000000028Png.png"
+        },
+        {
+          "id": "Tu43L5ORBrDGS",
+          "name": "Divider.svg",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/dividersvg.bin"
+        },
+        {
+          "id": "kM8EvUr6iSAyw",
+          "name": "9b498fb8-rechargable-gif-1 (1).gif",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/_9B498Fb8RechargableGif11Gif.gif"
+        },
+        {
+          "id": "hxjxOGt3J8tHf",
+          "name": "fbfd287e-rechargable-gif-2 (1).gif",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/fbfd287ERechargableGif21Gif.gif"
+        },
+        {
+          "id": "k7L3sm0_ehlc-",
+          "name": "7048e521-hit-1_1000000000000000000028 (1).png",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/_7048E521Hit110000000000000000000281Png.png"
+        },
+        {
+          "id": "QD-on0eRDfZK_",
+          "name": "Silver Device - Outro.gif",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/silverDeviceOutrogif.gif"
+        },
+        {
+          "id": "U3WXUVk9CQ3Vg",
+          "name": "LADYBAGUETTE2020IMG_3156-Edit_2.jpg",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/ladybaguette2020Img3156Edit2Jpg.jpeg"
+        },
+        {
+          "id": "jsHpOsMPUN-Yp",
+          "name": "hand.svg 5",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg5.bin"
+        },
+        {
+          "id": "EHg7zd4rBqyrr",
+          "name": "hand.svg 6",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg6.bin"
+        },
+        {
+          "id": "xzEeOA_0r_LAl",
+          "name": "hand.svg 7",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg7.bin"
+        },
+        {
+          "id": "Xuce4rdXXMiQq",
+          "name": "hand.svg 8",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg8.bin"
+        },
+        {
+          "id": "5uIX9efPZF7E3",
+          "name": "hand.svg 9",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg9.bin"
+        },
+        {
+          "id": "pUcX7KnAOswR8",
+          "name": "hand.svg 10",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg10.bin"
+        },
+        {
+          "id": "JvpSDN7GXxl_v",
+          "name": "hand.svg 11",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg11.bin"
+        },
+        {
+          "id": "kZ2Z-MJRR40C2",
+          "name": "hand.svg 12",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg12.bin"
+        },
+        {
+          "id": "x36HjE7Q3Bb9A",
+          "name": "hand.svg 13",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg13.bin"
+        },
+        {
+          "id": "mniH8d_AWKOR_",
+          "name": "hand.svg 14",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg14.bin"
+        },
+        {
+          "id": "CUkBL7zxUmzkD",
+          "name": "hand.svg 15",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg15.bin"
+        },
+        {
+          "id": "utN3yS8JrR4of",
+          "name": "hand.svg 16",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg16.bin"
+        },
+        {
+          "id": "vppiEZC5nn2vc",
+          "name": "hand.svg 17",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg17.bin"
+        },
+        {
+          "id": "KDWV9TsIIye-h",
+          "name": "hand.svg 18",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg18.bin"
+        },
+        {
+          "id": "YdghSBRKRQSAn",
+          "name": "hand.svg 19",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg19.bin"
+        },
+        {
+          "id": "hBH3XWVKY_tC5",
+          "name": "hand.svg 20",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg20.bin"
+        },
+        {
+          "id": "OlPJv00W-HoC7",
+          "name": "hand.svg 21",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg21.bin"
+        },
+        {
+          "id": "8OshPZa3TlILi",
+          "name": "hand.svg 22",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/handsvg22.bin"
+        },
+        {
+          "id": "EgY-WLeblbqKc",
+          "name": "disp gif.gif",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/dispGifgif.gif"
+        },
+        {
+          "id": "8HiUKtFCLx5nQ",
+          "name": "disp gif I.gif",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/dispGifIgif.gif"
+        },
+        {
+          "id": "DLFl4RXTofxtE",
+          "name": "Copy of disp gif II.gif",
+          "filePath": "../public/plasmic/in_use_sparq_master_app/images/copyOfDispGifIIgif.gif"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "4vhVetgLM-n",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "Mab-NPX1rb4t",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "TRXlpJoOf-oW4",
+        "name": "Screen",
+        "projectId": "pa7sVod8bKytSwUDATE2VX",
+        "contextFilePath": "plasmic/in_use_sparq_master_app/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.224",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.224/dist/plasmic.schema.json"
+}
