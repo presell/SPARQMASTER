@@ -72,7 +72,7 @@
   max-width: 100%;
   position: relative;
   flex-shrink: 0;
-  display: block;
+  display: none;
 }
 @media (min-width: 320px) {
   .announcementBar1440Px:global(.__wab_instance) {
@@ -89,7 +89,7 @@
 @media (min-width: 768px) {
   .announcementBar1440Px:global(.__wab_instance) {
     flex-shrink: 0;
-    display: block;
+    display: none;
   }
 }
 .navBar1440Px:global(.__wab_instance) {
