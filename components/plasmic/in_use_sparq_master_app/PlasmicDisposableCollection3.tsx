@@ -161,7 +161,6 @@ function PlasmicDisposableCollection3__RenderFunc(props: {
   variants: PlasmicDisposableCollection3__VariantsArgs;
   args: PlasmicDisposableCollection3__ArgsType;
   overrides: PlasmicDisposableCollection3__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -973,7 +972,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicDisposableCollection3__RenderFunc({
       variants,
       args,

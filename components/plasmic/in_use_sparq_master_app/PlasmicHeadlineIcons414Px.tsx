@@ -92,7 +92,6 @@ function PlasmicHeadlineIcons414Px__RenderFunc(props: {
   variants: PlasmicHeadlineIcons414Px__VariantsArgs;
   args: PlasmicHeadlineIcons414Px__ArgsType;
   overrides: PlasmicHeadlineIcons414Px__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -422,7 +421,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicHeadlineIcons414Px__RenderFunc({
       variants,
       args,

@@ -89,7 +89,6 @@ function PlasmicSafeLeads__RenderFunc(props: {
   variants: PlasmicSafeLeads__VariantsArgs;
   args: PlasmicSafeLeads__ArgsType;
   overrides: PlasmicSafeLeads__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -127,7 +126,13 @@ function PlasmicSafeLeads__RenderFunc(props: {
   });
 
   return (
-    (hasVariant(globalVariants, "screen", "smallestMobile") ? true : true) ? (
+    (
+      hasVariant(globalVariants, "screen", "largestMobile")
+        ? true
+        : hasVariant(globalVariants, "screen", "smallestMobile")
+        ? true
+        : true
+    ) ? (
       <p.Stack
         as={"section"}
         data-plasmic-name={"leads"}
@@ -192,6 +197,7 @@ function PlasmicSafeLeads__RenderFunc(props: {
             data-plasmic-name={"button"}
             data-plasmic-override={overrides.button}
             className={classNames("__wab_instance", sty.button)}
+            link={`/thank-you`}
           >
             {"Claim Free Device"}
           </Button>
@@ -259,7 +265,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicSafeLeads__RenderFunc({
       variants,
       args,

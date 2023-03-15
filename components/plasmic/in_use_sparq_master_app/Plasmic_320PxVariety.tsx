@@ -100,7 +100,6 @@ function Plasmic_320PxVariety__RenderFunc(props: {
   variants: Plasmic_320PxVariety__VariantsArgs;
   args: Plasmic_320PxVariety__ArgsType;
   overrides: Plasmic_320PxVariety__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -621,7 +620,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return Plasmic_320PxVariety__RenderFunc({
       variants,
       args,

@@ -107,7 +107,6 @@ function PlasmicDisposableBogoOffer1440Px__RenderFunc(props: {
   variants: PlasmicDisposableBogoOffer1440Px__VariantsArgs;
   args: PlasmicDisposableBogoOffer1440Px__ArgsType;
   overrides: PlasmicDisposableBogoOffer1440Px__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -632,7 +631,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicDisposableBogoOffer1440Px__RenderFunc({
       variants,
       args,

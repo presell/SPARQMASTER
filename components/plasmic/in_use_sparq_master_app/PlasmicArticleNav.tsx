@@ -82,7 +82,6 @@ function PlasmicArticleNav__RenderFunc(props: {
   variants: PlasmicArticleNav__VariantsArgs;
   args: PlasmicArticleNav__ArgsType;
   overrides: PlasmicArticleNav__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -228,7 +227,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicArticleNav__RenderFunc({
       variants,
       args,

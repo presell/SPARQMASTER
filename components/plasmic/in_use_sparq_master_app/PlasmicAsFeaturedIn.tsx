@@ -80,7 +80,6 @@ function PlasmicAsFeaturedIn__RenderFunc(props: {
   variants: PlasmicAsFeaturedIn__VariantsArgs;
   args: PlasmicAsFeaturedIn__ArgsType;
   overrides: PlasmicAsFeaturedIn__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -196,7 +195,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicAsFeaturedIn__RenderFunc({
       variants,
       args,

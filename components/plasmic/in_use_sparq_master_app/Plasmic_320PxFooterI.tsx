@@ -79,7 +79,6 @@ function Plasmic_320PxFooterI__RenderFunc(props: {
   variants: Plasmic_320PxFooterI__VariantsArgs;
   args: Plasmic_320PxFooterI__ArgsType;
   overrides: Plasmic_320PxFooterI__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -173,7 +172,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return Plasmic_320PxFooterI__RenderFunc({
       variants,
       args,

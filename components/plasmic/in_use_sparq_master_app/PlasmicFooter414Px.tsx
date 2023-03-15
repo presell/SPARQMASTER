@@ -118,7 +118,6 @@ function PlasmicFooter414Px__RenderFunc(props: {
   variants: PlasmicFooter414Px__VariantsArgs;
   args: PlasmicFooter414Px__ArgsType;
   overrides: PlasmicFooter414Px__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -944,7 +943,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicFooter414Px__RenderFunc({
       variants,
       args,

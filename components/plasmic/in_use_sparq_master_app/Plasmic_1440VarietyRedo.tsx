@@ -101,7 +101,6 @@ function Plasmic_1440VarietyRedo__RenderFunc(props: {
   variants: Plasmic_1440VarietyRedo__VariantsArgs;
   args: Plasmic_1440VarietyRedo__ArgsType;
   overrides: Plasmic_1440VarietyRedo__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -622,7 +621,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return Plasmic_1440VarietyRedo__RenderFunc({
       variants,
       args,

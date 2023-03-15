@@ -106,7 +106,6 @@ function Plasmic_320PxCwOfferBogo__RenderFunc(props: {
   variants: Plasmic_320PxCwOfferBogo__VariantsArgs;
   args: Plasmic_320PxCwOfferBogo__ArgsType;
   overrides: Plasmic_320PxCwOfferBogo__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -614,7 +613,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return Plasmic_320PxCwOfferBogo__RenderFunc({
       variants,
       args,

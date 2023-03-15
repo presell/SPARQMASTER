@@ -105,7 +105,6 @@ function Plasmic_414BogoOffer__RenderFunc(props: {
   variants: Plasmic_414BogoOffer__VariantsArgs;
   args: Plasmic_414BogoOffer__ArgsType;
   overrides: Plasmic_414BogoOffer__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -613,7 +612,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return Plasmic_414BogoOffer__RenderFunc({
       variants,
       args,

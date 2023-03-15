@@ -101,7 +101,6 @@ function PlasmicFuelSingle414Px__RenderFunc(props: {
   variants: PlasmicFuelSingle414Px__VariantsArgs;
   args: PlasmicFuelSingle414Px__ArgsType;
   overrides: PlasmicFuelSingle414Px__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -596,7 +595,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicFuelSingle414Px__RenderFunc({
       variants,
       args,

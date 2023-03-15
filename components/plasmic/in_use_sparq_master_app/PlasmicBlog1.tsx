@@ -77,7 +77,6 @@ function PlasmicBlog1__RenderFunc(props: {
   variants: PlasmicBlog1__VariantsArgs;
   args: PlasmicBlog1__ArgsType;
   overrides: PlasmicBlog1__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -183,7 +182,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicBlog1__RenderFunc({
       variants,
       args,

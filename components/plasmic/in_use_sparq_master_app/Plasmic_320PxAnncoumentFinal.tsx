@@ -80,7 +80,6 @@ function Plasmic_320PxAnncoumentFinal__RenderFunc(props: {
   variants: Plasmic_320PxAnncoumentFinal__VariantsArgs;
   args: Plasmic_320PxAnncoumentFinal__ArgsType;
   overrides: Plasmic_320PxAnncoumentFinal__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -174,7 +173,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return Plasmic_320PxAnncoumentFinal__RenderFunc({
       variants,
       args,

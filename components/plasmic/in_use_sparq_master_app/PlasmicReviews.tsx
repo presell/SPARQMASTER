@@ -81,7 +81,6 @@ function PlasmicReviews__RenderFunc(props: {
   variants: PlasmicReviews__VariantsArgs;
   args: PlasmicReviews__ArgsType;
   overrides: PlasmicReviews__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -194,7 +193,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicReviews__RenderFunc({
       variants,
       args,

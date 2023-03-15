@@ -83,7 +83,6 @@ function Plasmic_320PxNavBar__RenderFunc(props: {
   variants: Plasmic_320PxNavBar__VariantsArgs;
   args: Plasmic_320PxNavBar__ArgsType;
   overrides: Plasmic_320PxNavBar__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -197,7 +196,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return Plasmic_320PxNavBar__RenderFunc({
       variants,
       args,

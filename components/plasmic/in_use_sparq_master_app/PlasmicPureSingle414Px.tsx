@@ -101,7 +101,6 @@ function PlasmicPureSingle414Px__RenderFunc(props: {
   variants: PlasmicPureSingle414Px__VariantsArgs;
   args: PlasmicPureSingle414Px__ArgsType;
   overrides: PlasmicPureSingle414Px__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -615,7 +614,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicPureSingle414Px__RenderFunc({
       variants,
       args,

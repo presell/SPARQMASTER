@@ -81,7 +81,6 @@ function Plasmic_320PxAnnouncementBarIi__RenderFunc(props: {
   variants: Plasmic_320PxAnnouncementBarIi__VariantsArgs;
   args: Plasmic_320PxAnnouncementBarIi__ArgsType;
   overrides: Plasmic_320PxAnnouncementBarIi__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -175,7 +174,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return Plasmic_320PxAnnouncementBarIi__RenderFunc({
       variants,
       args,

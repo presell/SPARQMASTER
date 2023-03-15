@@ -26,7 +26,12 @@
 }
 @media (min-width: 320px) {
   .leads {
-    display: none;
+    display: flex;
+  }
+}
+@media (min-width: 414px) {
+  .leads {
+    display: flex;
   }
 }
 @media (min-width: 768px) {

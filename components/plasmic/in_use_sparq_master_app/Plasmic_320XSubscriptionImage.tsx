@@ -81,7 +81,6 @@ function Plasmic_320XSubscriptionImage__RenderFunc(props: {
   variants: Plasmic_320XSubscriptionImage__VariantsArgs;
   args: Plasmic_320XSubscriptionImage__ArgsType;
   overrides: Plasmic_320XSubscriptionImage__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -219,7 +218,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return Plasmic_320XSubscriptionImage__RenderFunc({
       variants,
       args,

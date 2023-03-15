@@ -102,7 +102,6 @@ function Plasmic_3Pack414Px__RenderFunc(props: {
   variants: Plasmic_3Pack414Px__VariantsArgs;
   args: Plasmic_3Pack414Px__ArgsType;
   overrides: Plasmic_3Pack414Px__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -642,7 +641,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return Plasmic_3Pack414Px__RenderFunc({
       variants,
       args,

@@ -303,7 +303,6 @@ function PlasmicCollectionWhole414Px3__RenderFunc(props: {
   variants: PlasmicCollectionWhole414Px3__VariantsArgs;
   args: PlasmicCollectionWhole414Px3__ArgsType;
   overrides: PlasmicCollectionWhole414Px3__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -5498,7 +5497,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicCollectionWhole414Px3__RenderFunc({
       variants,
       args,

@@ -78,7 +78,6 @@ function PlasmicSideCta__RenderFunc(props: {
   variants: PlasmicSideCta__VariantsArgs;
   args: PlasmicSideCta__ArgsType;
   overrides: PlasmicSideCta__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -241,7 +240,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicSideCta__RenderFunc({
       variants,
       args,

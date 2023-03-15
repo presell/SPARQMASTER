@@ -82,7 +82,6 @@ function PlasmicAnnouncementBar414Px__RenderFunc(props: {
   variants: PlasmicAnnouncementBar414Px__VariantsArgs;
   args: PlasmicAnnouncementBar414Px__ArgsType;
   overrides: PlasmicAnnouncementBar414Px__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -196,7 +195,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicAnnouncementBar414Px__RenderFunc({
       variants,
       args,

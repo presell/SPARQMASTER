@@ -82,7 +82,6 @@ function PlasmicSubscriptionImageTextBanner__RenderFunc(props: {
   variants: PlasmicSubscriptionImageTextBanner__VariantsArgs;
   args: PlasmicSubscriptionImageTextBanner__ArgsType;
   overrides: PlasmicSubscriptionImageTextBanner__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -224,7 +223,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicSubscriptionImageTextBanner__RenderFunc({
       variants,
       args,

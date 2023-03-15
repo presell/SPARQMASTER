@@ -92,7 +92,6 @@ function PlasmicNavBar1440Px__RenderFunc(props: {
   variants: PlasmicNavBar1440Px__VariantsArgs;
   args: PlasmicNavBar1440Px__ArgsType;
   overrides: PlasmicNavBar1440Px__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -436,7 +435,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicNavBar1440Px__RenderFunc({
       variants,
       args,

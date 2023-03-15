@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -885,6 +885,19 @@
             "modulePath": "../pages/blog-1.tsx"
           },
           "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicBlog1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "t1t7AWTaIOt",
+          "name": "DisposableCollectionRemarketing",
+          "type": "managed",
+          "projectId": "pa7sVod8bKytSwUDATE2VX",
+          "renderModuleFilePath": "plasmic/in_use_sparq_master_app/PlasmicDisposableCollectionRemarketing.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-remarketing.tsx"
+          },
+          "cssFilePath": "plasmic/in_use_sparq_master_app/PlasmicDisposableCollectionRemarketing.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }

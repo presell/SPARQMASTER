@@ -83,7 +83,6 @@ function PlasmicNav320CwOffer__RenderFunc(props: {
   variants: PlasmicNav320CwOffer__VariantsArgs;
   args: PlasmicNav320CwOffer__ArgsType;
   overrides: PlasmicNav320CwOffer__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -275,7 +274,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicNav320CwOffer__RenderFunc({
       variants,
       args,
